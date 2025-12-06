@@ -6,6 +6,7 @@
 body {
     margin: 0;
     font-family: pokemon;
+    background-color: cornflowerblue;
 }
 
 .container {
@@ -16,21 +17,25 @@ body {
     grid-template-rows: 2fr 5fr 5fr 5fr;
     row-gap: 10px;
 
-    background-color: cornflowerblue;
     box-sizing: border-box;
     height: 100vh;
+    max-height: 600px;
     margin: 0;
     padding: 30px;
 }
 
 .container > * {
     background-color: rgba(0, 0, 0, 0.2);
-    
+    padding: 15px;
 }
 
 .type-select {
     grid-column-start: 3;
     grid-row-start: 3;
+}
+
+.atk-header, .def-header {
+    font-size: 200%;
 }
 
 .def-header {
