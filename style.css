@@ -7,7 +7,7 @@ body {
     grid-template-columns: 1fr 5fr 2fr 5fr 1fr;
     column-gap: 10px;
 
-    grid-template-rows: 2fr 5fr 1fr 1fr 1fr 5fr;
+    grid-template-rows: 2fr 5fr 5fr 5fr;
     row-gap: 10px;
 
     background-color: cornflowerblue;
@@ -25,7 +25,6 @@ body {
 .type-select {
     grid-column-start: 3;
     grid-row-start: 3;
-    grid-row-end: 5;
 }
 
 .def-header {
@@ -33,16 +32,19 @@ body {
     grid-row-start: 1;
 }
 
-.def-not-very-effective-container {
+.def-no-effect-container {
     grid-column-start: 2;
     grid-row-start: 2;
-    grid-row-end: 4;
+}
+
+.def-not-very-effective-container {
+    grid-column-start: 2;
+    grid-row-start: 3;
 }
 
 .def-super-effective-container {
     grid-column-start: 2;
     grid-row-start: 4;
-    grid-row-end: 7;
 }
 
 .atk-header {
@@ -50,14 +52,17 @@ body {
     grid-row-start: 1;
 }
 
-.atk-not-very-effective-container {
+.atk-no-effect-container {
     grid-column-start: 4;
     grid-row-start: 2;
-    grid-row-end: 4;
+}
+
+.atk-not-very-effective-container {
+    grid-column-start: 4;
+    grid-row-start: 3;
 }
 
 .atk-super-effective-container {
     grid-column-start: 4;
     grid-row-start: 4;
-    grid-row-end: 7;
 }
