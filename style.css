@@ -1,5 +1,11 @@
+@font-face {
+  font-family: pokemon;
+  src: url(pokemon.ttf);
+}
+
 body {
     margin: 0;
+    font-family: pokemon;
 }
 
 .container {
