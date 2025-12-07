@@ -43,6 +43,7 @@ select {
 
 .atk-header, .def-header {
     font-size: 200%;
+    border-top: 5px solid black;
 }
 
 .def-header {
@@ -115,7 +116,7 @@ select {
 .type-steel {background-color: #777;}
 .type-fairy {background-color: rgb(235, 129, 147);}
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 50em) {
     .container {
         display: grid;
         grid-template-columns: 1fr 5fr 2fr 5fr 1fr;
