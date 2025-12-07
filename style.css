@@ -52,7 +52,7 @@ select {
     grid-row-start: 1;
 }
 
-.def-no-effect-container {
+.def-super-effective-container {
     grid-column-start: 2;
     grid-row-start: 2;
 }
@@ -62,7 +62,7 @@ select {
     grid-row-start: 3;
 }
 
-.def-super-effective-container {
+.def-no-effect-container {
     grid-column-start: 2;
     grid-row-start: 4;
 }
@@ -72,7 +72,7 @@ select {
     grid-row-start: 1;
 }
 
-.atk-no-effect-container {
+.atk-super-effective-container {
     grid-column-start: 4;
     grid-row-start: 2;
 }
@@ -82,7 +82,7 @@ select {
     grid-row-start: 3;
 }
 
-.atk-super-effective-container {
+.atk-no-effect-container {
     grid-column-start: 4;
     grid-row-start: 4;
 }
