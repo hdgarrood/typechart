@@ -10,7 +10,8 @@
 
 body {
     margin: 0;
-    background-color: cornflowerblue;
+    background-color: rgb(33, 33, 152);
+    color: #ccc;
     line-height: 2em;
 }
 
@@ -31,6 +32,7 @@ body {
 .container > * {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 0.5em 15px 15px 15px;
+    border-radius: 10px;
 }
 
 .type-select {
