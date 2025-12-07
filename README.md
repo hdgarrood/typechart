@@ -1,6 +1,6 @@
 # Pokémon type chart
 
-A type chart which is hopefully a bit easier to read than the traditional presentation
+A type chart which is hopefully a bit easier to use than the traditional version:
 
 ![](screenshot.png)
 
