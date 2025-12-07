@@ -28,6 +28,7 @@ body {
 }
 
 .type-select {
+    background-color: transparent;
     grid-column-start: 3;
     grid-row-start: 3;
     display: flex;
