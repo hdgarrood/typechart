@@ -108,10 +108,10 @@ select {
 .type-poison {background: linear-gradient(rgb(226, 67, 197), rgb(226, 67, 197) 30%, rebeccapurple 70%);}
 .type-ground {background: linear-gradient(rgb(203, 158, 100), rgb(186, 142, 84) 30%, rgb(165, 110, 1) 70%);}
 .type-flying {background: linear-gradient(rgb(94, 165, 194), rgb(94, 165, 194) 30%, rgb(180, 180, 180) 70%);}
-.type-psychic {background-color: rgb(212, 38, 204);}
+.type-psychic {background-color: #EF4179;}
 .type-bug {background-color: rgb(133, 188, 24);}
 .type-rock {background-color: rgb(158, 128, 39);}
-.type-ghost {background-color: rgb(75, 20, 131);}
+.type-ghost {background-color: #704170;}
 .type-dragon {background: linear-gradient(rgb(218, 25, 25), rgb(218,25, 25) 20%, blue 80%);}
 .type-dark {background-color: rgb(60, 43, 21);}
 .type-steel {background-color: #778;}
