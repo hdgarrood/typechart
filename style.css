@@ -16,15 +16,6 @@ body {
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr 5fr 2fr 5fr 1fr;
-    column-gap: 10px;
-
-    grid-template-rows: 2fr 5fr 5fr 5fr;
-    row-gap: 10px;
-
-    height: 100vh;
-    max-height: 700px;
     margin: 0;
     padding: 30px;
 }
@@ -33,6 +24,7 @@ body {
     background-color: rgba(0, 0, 0, 0.2);
     padding: 0.5em 15px 15px 15px;
     border-radius: 10px;
+    margin: 10px;
 }
 
 .type-select {
@@ -122,3 +114,21 @@ select {
 .type-dark {background-color: rgb(60, 43, 21);}
 .type-steel {background-color: #777;}
 .type-fairy {background-color: rgb(235, 129, 147);}
+
+@media screen and (min-width: 1000px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 5fr 2fr 5fr 1fr;
+        column-gap: 10px;
+
+        grid-template-rows: 2fr 5fr 5fr 5fr;
+        row-gap: 10px;
+
+        height: 100vh;
+        max-height: 700px;
+    }
+
+    .container > * {
+        margin: 0;
+    }
+}
