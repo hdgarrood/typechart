@@ -25,7 +25,12 @@ function setDisplay(values) {
     for (const key in values) {
         const elt = document.getElementById(key)
         if (elt) {
-            elt.innerText = values[key].join(", ")
+            elt.replaceChildren()
+            for (const type of values[key]) {
+                elt.appendChild(renderType(type))
+                // for line breaking
+                elt.appendChild(document.createTextNode(" "))
+            }
         } else {
             console.error("couldn't find element:", key)
         }
@@ -48,6 +53,17 @@ function getKeys(value, obj) {
         }
     }
     return result
+}
+
+/**
+ * @param {Type} type 
+ * @returns {HTMLElement}
+ */
+function renderType(type) {
+    const elt = document.createElement("span")
+    elt.setAttribute("class", "type type-" + type.toLowerCase());
+    elt.innerText = type.toUpperCase()
+    return elt
 }
 
 const type1Select = document.getElementById('type-1-select')
