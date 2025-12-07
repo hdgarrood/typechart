@@ -10,7 +10,7 @@
 
 body {
     margin: 0;
-    background-color: rgb(33, 33, 152);
+    background-color: rgb(50, 50, 161);
     color: #ccc;
     line-height: 2em;
 }
@@ -38,6 +38,15 @@ body {
 .type-select {
     grid-column-start: 3;
     grid-row-start: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align-last: center;
+}
+
+select {
+    font-size: 150%;
+    display: block;
 }
 
 .atk-header, .def-header {
@@ -84,10 +93,6 @@ body {
     grid-row-start: 4;
 }
 
-.types {
-    /* line-height: 3em; */
-}
-
 .type {
     display: inline-block;
     margin: 0.2em;
@@ -99,13 +104,13 @@ body {
     text-shadow: 1px 1px black;
 }
 
-.type-normal {background-color: #777;}
+.type-normal {background-color: #999;}
 .type-fire {background-color: #f51;}
 .type-water {background-color: #15f;}
 .type-electric {background-color: rgb(235, 192, 20);}
 .type-grass {background-color: #2b4;}
 .type-ice {background-color: #39f;}
-.type-fighting {background-color: rgb(221, 82, 17);}
+.type-fighting {background-color: rgb(199, 69, 9);}
 .type-poison {background-color: rebeccapurple;}
 .type-ground {background-color: rgb(203, 158, 100);}
 .type-flying {background: linear-gradient(rgb(94, 165, 194), 50%, rgb(225, 225, 225));}
@@ -115,5 +120,5 @@ body {
 .type-ghost {background-color: rgb(75, 20, 131);}
 .type-dragon {background: linear-gradient(rgb(218, 25, 25), 50%, blue);}
 .type-dark {background-color: rgb(60, 43, 21);}
-.type-steel {background-color: #999;}
+.type-steel {background-color: #777;}
 .type-fairy {background-color: rgb(235, 129, 147);}
