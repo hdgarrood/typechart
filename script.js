@@ -5,6 +5,10 @@
  */
 function onTypeSelected(newValue) {
     if (isType(newValue)) {
+        const elt = document.getElementById('type-1-select')
+        if (elt instanceof HTMLSelectElement) {
+            elt.value = newValue
+        }
         setDisplay({
             "atk-super-effective": getKeys(2, attackingTypeEffectiveness[newValue]),
             "atk-not-very-effective": getKeys(0.5, attackingTypeEffectiveness[newValue]),
@@ -63,6 +67,7 @@ function renderType(type) {
     const elt = document.createElement("span")
     elt.setAttribute("class", "type type-" + type.toLowerCase());
     elt.innerText = type.toUpperCase()
+    elt.onclick = () => onTypeSelected(type)
     return elt
 }
 

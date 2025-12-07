@@ -98,6 +98,10 @@ select {
     text-shadow: 1px 1px black;
 }
 
+.type:hover {
+    cursor: pointer;
+}
+
 .type-normal {background-color: #939f93;}
 .type-fire {background: linear-gradient(red, #f51);}
 .type-water {background-color: #15f;}
